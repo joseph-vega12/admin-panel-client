@@ -23,8 +23,11 @@ function SidebarNav() {
   return (
     <nav>
       <Drawer
+        sx={{
+          ".MuiPaper-root": { width: "15%", borderRight: "0" },
+        }}
         open={true}
-        // variant="permanent"
+        variant="permanent"
         ModalProps={{
           keepMounted: true,
         }}
