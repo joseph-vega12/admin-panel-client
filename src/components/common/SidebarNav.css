@@ -1,0 +1,9 @@
+.MuiPaper-root {
+    width: 15%;
+}
+
+.MuiTypography-root {
+    display: flex !important;
+    justify-content: center;
+    color: #8B8F9A;
+}
